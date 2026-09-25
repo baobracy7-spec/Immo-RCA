@@ -1,0 +1,2 @@
+"use client"; import Link from "next/link";
+export default function Forgot(){return <main className="auth"><div className="authbox"><Link className="logo" href="/">Immo RCA</Link><h1>Mot de passe oublié</h1><p className="muted">Entrez votre e-mail pour recevoir un lien de récupération.</p><form><div className="field"><label>E-mail</label><input type="email" required/></div><button className="btn primary full">Envoyer le lien</button></form><p><Link href="/connexion" style={{color:"#174ea6"}}>Retour à la connexion</Link></p></div></main>}
